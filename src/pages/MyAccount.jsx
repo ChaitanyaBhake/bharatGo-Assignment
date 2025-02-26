@@ -2,7 +2,7 @@ import flower from "../assets/flower2.jpg"
 
 const MyAccount = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center m-auto w-[50vw] h-[40vh]">
+    <div className="flex flex-col items-center justify-center text-center m-auto w-[50vw] md:h-[40vh] h-fit">
       <h2 className="mt-15 mb-5">My Account</h2>
 
       <div className="flex flex-col items-center justify-center w-full h-full border border-black rounded-lg p-3 gap-5">
